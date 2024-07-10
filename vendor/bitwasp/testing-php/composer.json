@@ -1,0 +1,19 @@
+{
+  "name": "bitwasp/testing-php",
+  "description": "Composer package which includes most common development & testing software for PHP, and a sample build.xml for phing",
+  "homepage": "https://github.com/Bit-Wasp/testing-php",
+  "licence": "unlicence",
+  "authors": [
+    {
+      "name": "Thomas Kerin",
+      "homepage": "https://thomaskerin.io",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "squizlabs/php_codesniffer": "2.*",
+    "phpmd/phpmd": "@stable",
+    "phpunit/phpunit": "@stable"
+  }
+}
